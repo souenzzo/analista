@@ -1,0 +1,10 @@
+{:paths   ["src/main"]
+ :deps    {org.clojure/clojure       {:mvn/version "1.10.1"}
+           com.cerner/clara-rules    {:mvn/version "0.20.0"}
+           ;; org.clojure/tools.analyzer     {:mvn/version "0.7.0"}
+           ;; org.clojure/tools.analyzer.jvm {:mvn/version "0.7.2"}
+           ;; org.clojure/tools.analyzer.js  {:mvn/version "0.1.0-beta5"}
+           ;; org.clojure/jvm.tools.analyzer {:mvn/version "0.6.2"}
+           org.clojure/clojurescript {:mvn/version "1.10.520"}}
+ :aliases {:dev {:extra-paths ["src/test" "src/dev"]
+                 :extra-deps  {org.clojure/test.check {:mvn/version "0.10.0"}}}}}
